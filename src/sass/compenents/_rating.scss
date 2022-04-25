@@ -1,0 +1,24 @@
+main ul {
+    margin: 2rem 0;
+    width: 80%;
+    margin: auto;
+    li {
+        text-align: center;
+        padding: 1rem;
+        background: var(--neutral-color-300);
+        border-radius: 0.5rem;
+        margin: 1rem 0;
+        picture {
+            display: flex;
+            gap: 0.25rem;
+            img {
+                margin-bottom: 0.5rem;
+        }
+        }
+        p {
+            color: var(--primary-color-600);
+            font-size: var(--fs-500);
+            font-weight: 700;
+        }
+    }
+}

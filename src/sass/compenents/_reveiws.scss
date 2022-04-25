@@ -1,0 +1,35 @@
+main > blockquote {
+    max-width: 90%;
+    max-width: 90%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+      .quote {
+        background-color: var(--primary-color-600);
+        color: var(--neutral-white-color);
+        padding: 2rem;  
+        border-radius: 0.5rem;
+          .quote-header {
+            display: grid;
+            grid-template-columns: 20% 80%;
+            grid-column-gap: 1rem;
+            margin-bottom: 2rem;
+                img {
+                    grid-row: span 2;
+                    width: 2rem;
+                    border-radius: 50%;
+                }
+                span {
+                    color: var(--primary-color-300);
+                    font-size: var(--fs-400);
+                    font-weight: 400;
+                }
+          }
+          p {
+            font-size: var(--fs-400);
+            line-height: 1.2rem;
+          }
+    }
+
+}

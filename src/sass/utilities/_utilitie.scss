@@ -1,0 +1,31 @@
+@media (min-width: 770px) {
+    .flex-quote {
+        margin-top: 1rem;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        max-width: 90%;
+    }
+    .grid-content {
+        display: grid;
+        grid-template-areas: "content content content . rate rate rate";
+        grid-template-columns: repeat(7, 1fr);
+        max-width: 90%;
+        .content,
+        .reviews {
+            margin-top: 4rem;
+        }
+        .content {
+            grid-area: content;
+        }
+        .reviews {
+            grid-area: rate;
+            width: 100%;
+        }
+    }
+    .flex-content {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
